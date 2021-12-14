@@ -1,0 +1,358 @@
+/* Шрифты */
+
+
+/* Обнуление */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+}
+
+/* Общие стили страницы */
+
+body {
+	font-family: 'Rampart One', cursive;
+	background-color: black;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+header {
+	background-color: #800080;
+	color: #fff;
+	margin: 0 0 50px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+}
+.homework {
+	text-align: center;
+	padding: 20px;
+	font-size: 28px;
+}
+.homework p {
+
+	display: inline-block;
+}
+
+
+main {
+	color: #fff;
+	margin-bottom: 20px;
+	padding: 100px 0 0 0;
+}
+h1 {
+	text-align: center;
+	padding: 20px;
+	font-size: 22px;
+	letter-spacing: 0.8px;
+	line-height: 1.4;
+}
+
+h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 32px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+
+
+.text {
+	font-size: 1px;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.copy {
+	margin: 20px 0 0 0;
+}
+
+footer {
+	background-color: #778d;
+	text-align: center;
+	padding: 32px;
+	font-size: 18px;
+}
+
+.free {
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.link-item {
+	margin: 20px 0 0 0;
+}
+.link {
+	font-size: 40px;
+	margin: 20px 0 0 0;
+	color: #fff;
+}
+
+
+/* LESSON 11*/
+
+.title-text {
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+.heading {
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+.cats {
+	max-width: 800px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 12px 12px #FF1493;
+}
+.cats__title {
+	font-size: 28px;
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+.cats__img img {
+	max-width: 400px;
+	max-height: 400px;
+	border-radius: 20px;
+}
+.cats__img img:hover {
+	box-shadow: 0px 0px 20px 20px #6699FF;
+}
+.cats__img {
+	text-align: center;
+}
+.cats__link {
+	margin: 0 0 0px 0;
+	padding: 60px 0;
+}
+.connect {
+	font-size: 20px;
+	padding: 20px;
+	background-color: red;
+	border-radius: 20px;
+	margin: 0 0 0 300px;
+	color: #fff;
+}
+.connect:hover {
+	opacity: 0.5;
+}
+.block-kun {
+	position: relative;
+	left: 700px;
+	bottom: 80px;
+}
+.title-house {
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+.line-photo {}
+.photo-line {
+	min-height: 200px;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 32px;
+}
+.line-photo div {
+	margin: 0 0 40px 0;
+}
+.line-photo__text {}
+.line-photo__one {
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(189,53,81,1) 100%);
+}
+.line-photo__two {
+	position: relative;
+	bottom: 150px;
+	background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(91,252,69,1) 100%);
+	z-index: 1;
+}
+.line-photo__three {
+	position: relative;
+	bottom: 300px;
+	background: radial-gradient(circle, rgba(131,58,180,1) 8%, rgba(246,38,38,1) 31%);
+}
+.line-photo__three:hover {
+	z-index: 2;
+}
+
+.title-item {
+	text-align: center;
+	margin: 0 0 40px 0;
+}
+.block-work {
+	margin: 0px 0 150px 0;
+}
+
+.list {
+	letter-spacing: 3px;
+}
+
+.list__chek {
+	font-size: 30px;
+	list-style: none;
+}
+.list__item {
+	padding: 0 0 0 40px;
+	position: relative;
+}
+.list__item::before {
+	content: "";
+	width: 25px;
+	height: 25px;
+	background-color: red;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	border-radius: 50%;
+}
+.list__item:not(:last-child) {
+	margin: 0 0 30px 0;
+}
+.list__item:nth-child(odd) {
+	margin: 50px;
+}
+.list__point {
+	padding: 0 0 0 80px;
+	margin: 0 0 50px 0;
+	position: relative;
+}
+.list__point::before {
+	content: "";
+	width: 50px;
+	height: 50px;
+	background: url("../img/war.jpg");
+	position: absolute;
+	top: 0px;
+	left: 0;
+	border-radius: 50%;
+	transition: all 0.3s ease 0s;
+}
+.list__point:hover::before {
+	transform: rotate(-180deg);
+}
+.block-list {
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 12px 12px #FF1493;
+	margin: 0 0 100px 0;
+}
+
+.block-snow {
+	margin: 0 0 100px 270px;
+}
+._img-cats {
+	position: relative;
+	display: inline-block;
+	margin: 0 0 0 200px;
+}
+._img-cats::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(55, 10, 90, 0.3);
+	z-index: 2;
+}
+._img-cats:hover::before {
+	opacity: 0;
+}
+
+.raccoon {
+	color: #FF69B4;
+	font-size: 40px;
+	text-align: center;
+	min-height: 800px;
+	position: relative;
+	padding: 20px;
+}
+.raccoon__one {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.raccoon__two {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.raccoon__three {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.raccoon__four {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.raccoon__answer {
+	position: absolute;
+	top: 600px;
+	left: 600px;
+}
+.raccoon__img {
+	position: absolute;
+	top: 200px;
+	left: 450px;
+	width: 400px;
+	border-radius: 50%;
+}
+.raccoon__img:hover {
+	opacity: 0.6;
+}
+
+.animal {
+	margin: 0 0 100px 0;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 12px 12px #FF1493;
+}
